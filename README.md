@@ -8,6 +8,7 @@ A simple web-based dashboard for managing car sales and business operations.
 - Sales management with popular car models
 - Car inventory tracking
 - Report generation with input form for adding new report items
+- Social media platforms integration
 - Settings configuration
 
 ## How to Run
