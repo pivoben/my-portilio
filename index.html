@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Business Organization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Benjamin Business Organization</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#sales">Sales</a></li>
+            <li><a href="#inventory">Inventory</a></li>
+            <li><a href="#reports">Reports</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Welcome to your business dashboard. Here you can monitor key metrics and access important links.</p>
+            <div class="metrics">
+                <div class="metric">
+                    <h3>Cars Sold</h3>
+                    <p>150</p>
+                </div>
+                <div class="metric">
+                    <h3>Active Customers</h3>
+                    <p>1,250</p>
+                </div>
+                <div class="metric">
+                    <h3>Cars in Inventory</h3>
+                    <p>75</p>
+                </div>
+            </div>
+        </section>
+        <section id="sales">
+            <h2>Sales</h2>
+            <p>Manage your car sales and transactions.</p>
+            <h3>Popular Car Models</h3>
+            <ul>
+                <li><a href="https://example.com/toyota-camry" target="_blank">Toyota Camry</a> - Sedan, $25,000</li>
+                <li><a href="https://example.com/honda-civic" target="_blank">Honda Civic</a> - Compact, $22,000</li>
+                <li><a href="https://example.com/ford-f150" target="_blank">Ford F-150</a> - Truck, $35,000</li>
+                <li><a href="https://example.com/chevrolet-malibu" target="_blank">Chevrolet Malibu</a> - Sedan, $24,000</li>
+                <li><a href="https://example.com/nissan-altima" target="_blank">Nissan Altima</a> - Sedan, $23,000</li>
+            </ul>
+            <ul>
+                <li><a href="https://example.com/sales-report" target="_blank">View Sales Report</a></li>
+                <li><a href="https://example.com/new-sale" target="_blank">Add New Sale</a></li>
+                <li><a href="https://example.com/customer-list" target="_blank">Customer List</a></li>
+            </ul>
+        </section>
+        <section id="inventory">
+            <h2>Inventory</h2>
+            <p>Track and manage your car inventory.</p>
+            <h3>Current Stock</h3>
+            <ul>
+                <li>Toyota Camry: 20 units</li>
+                <li>Honda Civic: 15 units</li>
+                <li>Ford F-150: 10 units</li>
+                <li>Chevrolet Malibu: 12 units</li>
+                <li>Nissan Altima: 18 units</li>
+            </ul>
+            <ul>
+                <li><a href="https://example.com/inventory-list" target="_blank">Full Inventory List</a></li>
+                <li><a href="https://example.com/add-car" target="_blank">Add New Car</a></li>
+                <li><a href="https://example.com/low-stock" target="_blank">Low Stock Alerts</a></li>
+            </ul>
+        </section>
+        <section id="reports">
+            <h2>Reports</h2>
+            <p>Generate and view business reports.</p>
+            <h3>Add New Report Item</h3>
+            <form id="reportForm">
+                <label for="reportType">Report Type:</label>
+                <select id="reportType">
+                    <option value="sales">Sales Report</option>
+                    <option value="inventory">Inventory Report</option>
+                    <option value="financial">Financial Report</option>
+                </select><br><br>
+                <label for="reportTitle">Title:</label>
+                <input type="text" id="reportTitle" placeholder="Enter report title"><br><br>
+                <label for="reportDescription">Description:</label>
+                <textarea id="reportDescription" placeholder="Enter report description"></textarea><br><br>
+                <button type="submit">Add Report Item</button>
+            </form>
+            <div id="reportList">
+                <h3>Existing Reports</h3>
+                <ul>
+                    <li><a href="https://example.com/monthly-report" target="_blank">Monthly Report</a></li>
+                    <li><a href="https://example.com/annual-report" target="_blank">Annual Report</a></li>
+                    <li><a href="https://example.com/custom-report" target="_blank">Custom Report</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="settings">
+            <h2>Settings</h2>
+            <p>Configure your business settings.</p>
+            <ul>
+                <li><a href="https://example.com/user-settings" target="_blank">User Settings</a></li>
+                <li><a href="https://example.com/business-info" target="_blank">Business Information</a></li>
+                <li><a href="https://example.com/notifications" target="_blank">Notifications</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Benjamin Business Organization. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
